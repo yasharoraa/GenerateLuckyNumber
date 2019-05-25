@@ -1,4 +1,4 @@
-# about_you
+# Generate Lucky Number
 
 A new Flutter project.
 
