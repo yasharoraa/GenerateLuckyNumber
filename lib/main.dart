@@ -59,11 +59,13 @@ class _SampleAppPageState extends State<SampleAppPage> {
             Align(
               alignment: Alignment.center,
               child: Container(
+                padding: EdgeInsets.all(20),
                 child: Center(
                   child: Text(
                     textToShow,
                     textAlign: TextAlign.center,
-                    style: TextStyle(fontSize: 30, color: Colors.white),
+                    style: TextStyle(fontSize: 35,
+                     color: Colors.white),
                   ),
                 ),
                 decoration: BoxDecoration(
